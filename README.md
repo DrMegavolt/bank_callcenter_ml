@@ -1,4 +1,12 @@
-# Using BERT in Keras with tensorflow hub
-Following on our [previous demo using ELMo embeddings in Keras with tensorflow hub](https://github.com/strongio/keras-elmo), we present a brief demonstration on how to integrate BERT from tensorflow hub into a custom Keras layer that can be directly integrated into a Keras or tensorflow model.
+# Using Google BERT to predict which product type by customer narrative. 
 
-See the accompanying [blog post](https://towardsdatascience.com/bert-in-keras-with-tensorflow-hub-76bcbc9417b) with further description
+# dataset:
+5 Product types which represent bank products.
+reasonably long complain text
+each complain can have only one product type (class)
+
+# model
+BERT uncased base
+top 2 layers fine tuned
++ 1 Dense layer 
++ final 5 node layer for multiclass classification 
