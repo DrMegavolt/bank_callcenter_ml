@@ -10,3 +10,6 @@
 + top 2 layers fine tuned
 + 1 Dense layer 
 + final 5 node layer for multiclass classification 
+
+
+![Confusion matrix after 2 epochs](https://raw.githubusercontent.com/DrMegavolt/bank_callcenter_ml/master/conf_matrix_2_epochs.png)
